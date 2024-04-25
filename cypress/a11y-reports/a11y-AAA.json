@@ -1,0 +1,561 @@
+[
+  {
+    "id": "color-contrast-enhanced",
+    "impact": "serious",
+    "tags": [
+      "cat.color",
+      "wcag2aaa",
+      "wcag146",
+      "ACT"
+    ],
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AAA enhanced contrast ratio thresholds",
+    "help": "Elements must meet enhanced color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/color-contrast-enhanced?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<p>Verso, lower left, in pen and black ink, <em>W.S</em>. (mark of William Sharp); below that, encircled, <em>B157</em>; and in pencil, <em>63-3.67</em>.</p>",
+        "target": [
+          ".metadata__inscriptions > p"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<em>W.S</em>",
+        "target": [
+          ".metadata__inscriptions > p > em:nth-child(1)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<em>B157</em>",
+        "target": [
+          "em:nth-child(2)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<em>63-3.67</em>",
+        "target": [
+          "em:nth-child(3)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<dd class=\"metadata__value\">None.</dd>",
+        "target": [
+          "dd:nth-child(2)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<p>William Sharp, Manchester, mid-nineteenth century (Lugt 2650, mark on verso); sale, Sotheby’s, New York, 29 January 2020, lot 89 (as Pieter van Laer); Sheldon Peck, Boston (Lugt 3847); gift to the Ackland Art Museum, inv. no. 2020.3.</p>",
+        "target": [
+          "dd:nth-child(4) > p"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<p>None</p>",
+        "target": [
+          "dd:nth-child(6) > p"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#7e7568",
+              "bgColor": "#ffffff",
+              "contrastRatio": 4.53,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "7:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "body"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a href=\"https://ackland.emuseum.com/objects/28986\">2020.3</a>",
+        "target": [
+          "dd:nth-child(8) > a"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.53 (foreground color: #7e7568, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 7:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "40.5pt (54px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 40.5pt (54px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<div class=\"footer__heading h1\"><em>Extend</em> the boundaries of&nbsp;seeing</div>",
+        "target": [
+          ".footer__heading"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 40.5pt (54px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "40.5pt (54px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 40.5pt (54px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<em>Extend</em>",
+        "target": [
+          ".footer__heading > em"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 40.5pt (54px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "18.0pt (24px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"line\">Stay in the frame!</span>",
+        "target": [
+          ".line:nth-child(1)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "18.0pt (24px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"line\">Sign up for our free newsletter</span>",
+        "target": [
+          ".line:nth-child(2)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<input class=\"email-signup__input\" id=\"signup-email\" name=\"email\" type=\"email\" placeholder=\"Enter email\">",
+        "target": [
+          "#signup-email"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"text\">Submit</span>",
+        "target": [
+          ".wrap > .text"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<small>© Ackland Art Museum 2024<span class=\"m-above\"> - all rights reserved</span></small>",
+        "target": [
+          ".footer__copyright > small"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast-enhanced",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#878f7b",
+              "contrastRatio": 3.36,
+              "fontSize": "15.0pt (20px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer id=\"footer\" class=\"footer\">",
+                "target": [
+                  "#footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"m-above\"> - all rights reserved</span>",
+        "target": [
+          ".m-above"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #878f7b, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  }
+]
