@@ -9,4 +9,4 @@ simple test setup to run on any given url
 1. run `npx cypress open`
 1. choose "end to end testing"
 1. you can observe the tests run
-1. if anything is found, test results will be written to the directory a11y-reports
+1. if anything is found, test results will be written to the directory a11y-reports (note that reports will overwrite previous ones if present)
