@@ -1,5 +1,4 @@
 describe("Test accessibility for different WCAG levels", () => {
-  const now = new Date();
   const page =
     "https://peck.ackland.org/artworks/figures-dancing-around-a-fire";
 
